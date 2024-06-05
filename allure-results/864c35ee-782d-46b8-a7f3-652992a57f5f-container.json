@@ -1,0 +1,1 @@
+{"uuid":"864c35ee-782d-46b8-a7f3-652992a57f5f","name":"com.labssqajobs.TestCases_Recruiter.TC_LoginPage","children":["db9e1d14-97ce-4189-aa27-8404ac18f177"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1711963237652,"stop":1711963240132}],"afters":[],"start":1711963237600,"stop":1711963922648}

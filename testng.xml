@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="E:/Selenium_Projects/career.qaharbor/career.qaharbor/src/test/java/com/labssqajobs/TestCases_Recruiter">
+        <classes>
+            <class name="com.labssqajobs.TestCases_Recruiter.Change_Password.ChangePassword_using_less_characters">
+                <methods>
+                    <include name="Changing_Password_using_lessthan_8_Characters"/>
+                </methods>
+            </class>
+            <class name="com.labssqajobs.TestCases_Recruiter.Change_Password.ChangedPassword_keep_confirmPass_Blank">
+                <methods>
+                    <include name="Change_password_keepConfirmPassword_blank"/>
+                </methods>
+            </class>
+            <class name="com.labssqajobs.TestCases_Recruiter.Change_Password.Password_Mismatch">
+                <methods>
+                    <include name="Changing_Password_Mismatched_NewPass_ConfirmPass"/>
+                </methods>
+            </class>
+            <class name="com.labssqajobs.TestCases_Recruiter.Change_Password.Successfully_changed_Password">
+                <methods>
+                    <include name="successfulChangePassword"/>
+                </methods>
+            </class>
+            <class name="com.labssqajobs.TestCases_Recruiter.HomePage.Successful_JobSearch">
+                <methods>
+                    <include name="SuccessfulSearchTest"/>
+                </methods>
+            </class>
+            <class name="com.labssqajobs.TestCases_Recruiter.HomePage.Successful_dropdownSelect">
+                <methods>
+                    <include name="SuccessfulDropdownSelect"/>
+                </methods>
+            </class>
+            <class name="com.labssqajobs.TestCases_Recruiter.HomePage.Successfully_see_JobDetails">
+                <methods>
+                    <include name="Jobdetails"/>
+                </methods>
+            </class>
+            <class name="com.labssqajobs.TestCases_Recruiter.JobsPage.Successfully_checked_VacancyStatus">
+                <methods>
+                    <include name="Successfully_Checked_FullTime"/>
+                    <include name="Successfully_Checked_Intern"/>
+                    <include name="Successfully_Checked_Part_Time"/>
+                </methods>
+            </class>
+            <class name="com.labssqajobs.TestCases_Recruiter.JobsPage.Successfully_checked_vacancy_type">
+                <methods>
+                    <include name="Successfully_Onsite_Checkbox_checked"/>
+                    <include name="Successfully_Remote_Checkbox_checked"/>
+                </methods>
+            </class>
+            <class name="com.labssqajobs.TestCases_Recruiter.JobsPage.Successfully_searchJobs_usingCategory">
+                <methods>
+                    <include name="Successfully_Search_Job_Using_Cayegory"/>
+                </methods>
+            </class>
+            <class name="com.labssqajobs.TestCases_Recruiter.LoginPage.Login_keep_email_field_blank">
+                <methods>
+                    <include name="Login_keep_email_blank"/>
+                </methods>
+            </class>
+            <class name="com.labssqajobs.TestCases_Recruiter.LoginPage.Login_keep_password_field_blank">
+                <methods>
+                    <include name="Login_keep_password_blank"/>
+                </methods>
+            </class>
+            <class name="com.labssqajobs.TestCases_Recruiter.LoginPage.Login_with_Invalid_password">
+                <methods>
+                    <include name="Login_With_InValid_Password"/>
+                </methods>
+            </class>
+            <class name="com.labssqajobs.TestCases_Recruiter.LoginPage.Login_with_invalid_Mail">
+                <methods>
+                    <include name="SucessfulLogin_WithValidCredential"/>
+                </methods>
+            </class>
+            <class name="com.labssqajobs.TestCases_Recruiter.LoginPage.Successful_Login_With_Valid_Credentials">
+                <methods>
+                    <include name="SucessfulLogin_WithValidCredential"/>
+                </methods>
+            </class>
+            <class name="com.labssqajobs.TestCases_Recruiter.MyProfile.SuccessfullyUpload_Profile_picture">
+                <methods>
+                    <include name="Successfully_Picture_Upload"/>
+                </methods>
+            </class>
+            <class name="com.labssqajobs.TestCases_Recruiter.MyProfile.Successfully_Update_companyProfile">
+                <methods>
+                    <include name="Successfuly_Edit_Company"/>
+                    <include name="successfulEditCompanySize"/>
+                    <include name="successfulEditCompanyType"/>
+                    <include name="SuccessfulEditAddress"/>
+                    <include name="successfulEditCompanyCountry"/>
+                </methods>
+            </class>
+            <class name="com.labssqajobs.TestCases_Recruiter.MyProfile.Successfully_update_CompanyAbout">
+                <methods>
+                    <include name="successfulEditCompanyAbout"/>
+                </methods>
+            </class>
+            <class name="com.labssqajobs.TestCases_Recruiter.MyProfile.Sucessfully_Edit_Posted_Job">
+                <methods>
+                    <include name="Successfully_Picture_Upload"/>
+                </methods>
+            </class>
+            <class name="com.labssqajobs.TestCases_Recruiter.TC_LoginPage">
+                <methods>
+                    <include name="SucessfulLogin_WithValidCredential"/>
+                </methods>
+            </class>
+            <class name="com.labssqajobs.TestCases_Recruiter.WhoApplied.Successfully_Download_Resume">
+                <methods>
+                    <include name="Successfully_Download_Candidate_Resume"/>
+                </methods>
+            </class>
+            <class name="com.labssqajobs.TestCases_Recruiter.WhoApplied.Successfully_see_CandidateDetails">
+                <methods>
+                    <include name="Successfully_Download_Candidate_Resume"/>
+                </methods>
+            </class>
+            <class name="com.labssqajobs.TestCases_Recruiter.WhoApplied.Successfully_see_whoApplied">
+                <methods>
+                    <include name="Successfully_can_see_who_applied"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
